@@ -1,0 +1,83 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+/* Addeds */
+
+header {
+  background-color: #333;
+  text-align: center;
+  padding: 1rem;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  
+}
+
+nav a {
+  color: white !important;
+  font-size: 1.5rem;
+  transition: background-color 0.3s;
+}
+
+nav a:hover,
+nav a:focus  {
+  background-color: #555;
+  text-decoration: underline dotted red !important;
+}
+
+
+.not-found-container {
+  text-align: center;
+}
+
+.not-found-image {
+  width: 75%;
+}
+
+.datagrid {
+  background-color: #61dafbaa;
+}
+
+
