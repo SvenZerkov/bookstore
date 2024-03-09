@@ -14,12 +14,12 @@ function App() {
   return (
     <>
       <div className="App">
-        <BrowserRouter basename="/bookstore">
+        <BrowserRouter basename="/bookstore/">
           <header>
             <nav>
-              <Link to="/bookstore">Home</Link>
-              <Link to="/books/">Books</Link>
-              <Link to="/about/">About</Link>
+              <Link to="/bookstore/">Home</Link>
+              <Link to="/bookstore/books/">Books</Link>
+              <Link to="/bookstore/about/">About</Link>
             </nav>
           </header>
           <Routes>

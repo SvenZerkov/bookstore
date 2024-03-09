@@ -2,7 +2,7 @@
   "name": "bookstore",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://svenzerkov.github.io/bookstore",
+  "homepage": "https://svenzerkov.github.io/bookstore/",
   "type": "module",
   "scripts": {
     "dev": "vite",
