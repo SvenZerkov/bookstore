@@ -14,7 +14,7 @@ function App() {
   return (
     <>
       <div className="App">
-        <BrowserRouter>
+        <BrowserRouter basename="/bookstore">
           <header>
             <nav>
               <Link to="/bookstore">Home</Link>
