@@ -17,13 +17,13 @@ function App() {
         <BrowserRouter>
           <header>
             <nav>
-              <Link to="/">Home</Link>
+              <Link to="/bookstore">Home</Link>
               <Link to="/books/">Books</Link>
               <Link to="/about/">About</Link>
             </nav>
           </header>
           <Routes>
-            <Route path="/" element={<Home />}></Route>
+            <Route path="/bookstore" element={<Home />}></Route>
             <Route path="/books" element={<Books />}></Route>
             <Route path="/about" element={<About />}></Route>
             <Route path="*" element={<NotFound />}></Route>
