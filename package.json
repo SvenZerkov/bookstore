@@ -1,0 +1,40 @@
+{
+  "name": "bookstore",
+  "private": true,
+  "version": "0.0.0",
+  "homepage": "https://svenzerkov.github.io/bookstore",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.15.11",
+    "@mui/material": "^5.15.11",
+    "@mui/x-data-grid": "^6.19.5",
+    "@mui/x-date-pickers": "^6.19.5",
+    "ag-grid-community": "^31.1.1",
+    "ag-grid-react": "^31.1.1",
+    "react": "^18.2.0",
+    "react-awesome-button": "^7.0.5",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.22.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.37",
+    "@types/react-dom": "^18.0.11",
+    "@vitejs/plugin-react": "^4.0.0",
+    "eslint": "^8.38.0",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.3.4",
+    "gh-pages": "^6.1.1",
+    "vite": "^4.3.9"
+  }
+}
